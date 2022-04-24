@@ -1,16 +1,15 @@
-import Topbar from "./components/Topbar";
+import Topbar from "./components/topbar/Topbar";
+import Sidebar from "./sidebar/Sidebar";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <Topbar />
-      test <br />
-      test <br />
-      test <br />
-      test <br />
-      test <br />
-      test <br />
-      test <br />
+      <div className="container">
+        <Sidebar />
+        <div className="others">other pages</div>
+      </div>
     </div>
   );
 }

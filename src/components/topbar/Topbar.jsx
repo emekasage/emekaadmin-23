@@ -20,7 +20,6 @@ export default function Topbar() {
           </div>
           <div className="topbarIconContainer">
             <Settings />
-            <span className="topIconBadge">2</span>
           </div>
           <img
             src="https://www.linkpicture.com/q/IMG_20211030_124919.jpg"
