@@ -24,15 +24,15 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem active">
-              <LineStyle />
+              <LineStyle className="sidebarIcon" />
               <span style={{ paddingLeft: "5px" }}>Home</span>
             </li>
             <li className="sidebarListItem">
-              <Timeline />
+              <Timeline className="sidebarIcon" />
               <span style={{ paddingLeft: "5px" }}>Analytics</span>
             </li>
             <li className="sidebarListItem">
-              <TrendingUp />
+              <TrendingUp className="sidebarIcon" />
               <span style={{ paddingLeft: "5px" }}>Sales</span>
             </li>
           </ul>
@@ -46,15 +46,15 @@ export default function Sidebar() {
               <span style={{ paddingLeft: "5px" }}>Users</span>
             </li>
             <li className="sidebarListItem">
-              <Storefront />
+              <Storefront className="sidebarIcon" />
               <span style={{ paddingLeft: "5px" }}>Products</span>
             </li>
             <li className="sidebarListItem">
-              <AttachMoney />
+              <AttachMoney className="sidebarIcon" />
               <span style={{ paddingLeft: "5px" }}>Transactions</span>
             </li>
             <li className="sidebarListItem">
-              <BarChart />
+              <BarChart className="sidebarIcon" />
               <span style={{ paddingLeft: "5px" }}>Reports</span>
             </li>
           </ul>
@@ -64,14 +64,15 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Notifications</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem active">
-              <MailOutline /> <span style={{ paddingLeft: "5px" }}>Mail</span>
+              <MailOutline className="sidebarIcon" />{" "}
+              <span style={{ paddingLeft: "5px" }}>Mail</span>
             </li>
             <li className="sidebarListItem">
-              <DynamicFeed />
+              <DynamicFeed className="sidebarIcon" />
               <span style={{ paddingLeft: "5px" }}>Feeback</span>
             </li>
             <li className="sidebarListItem">
-              <MessageOutlined />
+              <MessageOutlined className="sidebarIcon" />
               <span style={{ paddingLeft: "5px" }}>Messages</span>
             </li>
           </ul>
@@ -81,15 +82,15 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Staff</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem active">
-              <WorkOutline />
+              <WorkOutline className="sidebarIcon" />
               <span style={{ paddingLeft: "5px" }}>Manage</span>
             </li>
             <li className="sidebarListItem">
-              <Timeline />
+              <Timeline className="sidebarIcon" />
               <span style={{ paddingLeft: "5px" }}>Analytics</span>
             </li>
             <li className="sidebarListItem">
-              <Report />
+              <Report className="sidebarIcon" />
               <span style={{ paddingLeft: "5px" }}>Reports</span>
             </li>
           </ul>
