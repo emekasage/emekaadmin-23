@@ -3,6 +3,8 @@ import "./home.css";
 import FeaturedInfo from "../../components/featuredInfo/FeaturedInfo";
 import Chart from "../../components/chart/Chart";
 import { userData } from "../../DummyData";
+import WidgetSmall from "../../components/widgetSmall/WidgetSmall";
+import WidgetLarge from "../../components/widgetLarge/WidgetLarge";
 
 export default function Home() {
   return (
@@ -12,8 +14,12 @@ export default function Home() {
         data={userData}
         title="User Analytics"
         grid
-        dataKey="Active Users"
+        dataKey="Active User"
       />
+      <div className="homeWidgets">
+        <WidgetSmall />
+        <WidgetLarge />
+      </div>
     </div>
   );
 }
