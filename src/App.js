@@ -8,6 +8,7 @@ import User from "./pages/user/User";
 import NewUser from "./pages/newUser/NewUser";
 import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
+import NewProduct from "./pages/newProduct/NewProduct";
 
 function App() {
   const { createMemoryHistory } = require("history");
@@ -24,6 +25,7 @@ function App() {
           <Route path="/newUser" element={<NewUser />} />
           <Route path="/products" element={<ProductList />} />
           <Route path="/product/:productid" element={<Product />} />
+          <Route path="/newProduct" element={<NewProduct />} />
         </Routes>
       </div>
     </Router>
