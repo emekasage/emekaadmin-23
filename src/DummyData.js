@@ -1,11 +1,11 @@
 export const userData = [
   {
     name: "Monday",
-    "Active User": 4000,
+    "Active User": 1050,
   },
   {
     name: "Monday",
-    "Active User": 7000,
+    "Active User": 750,
   },
   {
     name: "Tuesday",
@@ -13,11 +13,11 @@ export const userData = [
   },
   {
     name: "Wednesday",
-    "Active User": 2000,
+    "Active User": 1292,
   },
   {
     name: "Thursday",
-    "Active User": 2780,
+    "Active User": 278,
   },
   {
     name: "Friday",
@@ -25,7 +25,7 @@ export const userData = [
   },
   {
     name: "Saturday",
-    "Active User": 2390,
+    "Active User": 2300,
   },
   {
     name: "Sunday",
