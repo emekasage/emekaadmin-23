@@ -1,35 +1,35 @@
 export const userData = [
   {
     name: "Monday",
-    "Active User": 1050,
+    "Active User": Math.floor(Math.random() * 250) + 1,
   },
   {
     name: "Monday",
-    "Active User": 750,
+    "Active User": Math.floor(Math.random() * 120) + 1,
   },
   {
     name: "Tuesday",
-    "Active User": 3000,
+    "Active User": Math.floor(Math.random() * 180) + 1,
   },
   {
     name: "Wednesday",
-    "Active User": 1292,
+    "Active User": Math.floor(Math.random() * 900) + 1,
   },
   {
     name: "Thursday",
-    "Active User": 278,
+    "Active User": Math.floor(Math.random() * 410) + 1,
   },
   {
     name: "Friday",
-    "Active User": 1890,
+    "Active User": Math.floor(Math.random() * 550) + 1,
   },
   {
     name: "Saturday",
-    "Active User": 2300,
+    "Active User": Math.floor(Math.random() * 355) + 1,
   },
   {
     name: "Sunday",
-    "Active User": 3190,
+    "Active User": Math.floor(Math.random() * 705) + 1,
   },
 ];
 

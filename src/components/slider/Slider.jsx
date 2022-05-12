@@ -16,8 +16,6 @@ export default function VerticalSlider({ onValueSet }) {
     onValueSet(newValue);
   };
 
-  console.log(value);
-
   return (
     <Box sx={{ height: 300 }}>
       <Slider
