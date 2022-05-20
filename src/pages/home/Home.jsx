@@ -17,7 +17,7 @@ export default function Home() {
   console.log(sliderValue);
 
   const calculateNewMonth = (month) => {
-    const activeUserValue = sliderValue * month["Active User"];
+    const activeUserValue = sliderValue * month["Active User"] * Math.random();
     const newMonthValue = { ...month, "Active User": activeUserValue };
 
     return newMonthValue;
@@ -42,7 +42,7 @@ export default function Home() {
   // console.log(typeof (+first + second));
   return (
     <div className="home">
-      <FeaturedInfo />
+      <FeaturedInfo sliderValue={sliderValue} />
       <div className="itemsContainer">
         <VerticalSlider onValueSet={getSliderValue} className="chartSlider" />
         <div className="chart">

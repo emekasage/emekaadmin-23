@@ -15,8 +15,20 @@
   -moz-box-shadow: 1px 0px 11px -2px rgba(0, 0, 0, 0.75);
 }
 
+.featuredItem.revenue {
+  background-color: #5cb85c;
+}
+
+.featuredItem.cost {
+  background-color: #5bc0de;
+}
+
 .featuredTitle {
   font-size: 20px;
+}
+
+.featuredTitle.revenue {
+  color: #f5f5f5;
 }
 
 .featuredMoneyContainer {
@@ -36,6 +48,10 @@
   margin-left: 20px;
 }
 
+.featuredMoneyRate.white {
+  color: #f5f5f5;
+}
+
 .featuredIcon {
   font-size: 14px;
   margin-left: 5px;
@@ -44,6 +60,10 @@
 
 .featuredIcon.negative {
   color: red;
+}
+
+.featuredIcon.positive {
+  color: darkgreen;
 }
 
 .featuredSubtitle {

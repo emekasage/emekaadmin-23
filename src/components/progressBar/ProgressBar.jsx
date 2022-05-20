@@ -3,14 +3,6 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 export default function ProgressBar(sliderValue) {
-  //   const percentage = 66;
-  //   const [percentage, setPercentage] = useState(1);
-
-  //   const handleChange = (event, newValue) => {
-  //     setPercentage(newValue);
-  //     console.log(newValue);
-  //   };
-  //   console.log(JSON.stringify(sliderValue));
   return (
     <div>
       <Example label="Default">
